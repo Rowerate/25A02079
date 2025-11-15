@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Portfolio — Aadi Jain</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Personal portfolio showcasing skills, education, projects and contact." />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">Aadi Jain</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#edu">Education / Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-content">
+        <img src="assets/profile.jpeg" alt="Profile illustration" class="profile-img" />
+        <div>
+          <h1>Hi — I'm Aadi</h1>
+          <p class="lead">A passionate developer and lifelong learner building thoughtful web experiences. I focus on clean code, accessible interfaces and practical projects that solve real problems.</p>
+          <p class="cta-row">
+            <a class="btn" href="#projects">View Projects</a>
+          </p>
+          <p class="external-links">
+            <a href="https://github.com/Rowerate" target="_blank" rel="noopener">GitHub</a> ·
+            <a href="https://www.linkedin.com/in/aadi-jain-8227b421b/" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About Me</h2>
+      <p>I am a motivated student and developer who enjoys building simple, maintainable web apps and exploring machine learning. I love learning new technologies and contributing to meaningful projects. Outside coding, I enjoy poetry, working out, and exploring ideas for startups.</p>
+      <p>Goal: To build production-ready web applications and grow my portfolio while collaborating with peers and mentors.</p>
+      <p>   </p>
+      
+    </section>
+
+    <section id="edu" class="section container">
+      <h2>Education / Skills</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Education</h3>
+          <p><strong>DPS NOIDA (DPSN)</strong> — Till 12th</p>          
+          <p><strong>Delhi Technological University (DTU)</strong> — B.Tech in CSE (Incoming)</p>
+          <p>Relevant coursework: Data Structures, Algorithms, Web Development, Intro to ML</p>
+        </div>
+        <div class="card">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>Languages: HTML, CSS, JavaScript, C</li>
+            <li>Frameworks: React (basic), Node.js (basics)</li>
+            <li>Tools: Git, GitHub, VS Code</li>
+            <li>Interests: Machine Learning, Web Performance, UI/UX</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Projects / Portfolio</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="assets/proj1.png" alt="Project 1 screenshot" />
+          <h3>Disaster Prediction App (Prototype)</h3>
+          <p>Built an early prototype for predicting forest-area hazards using historical climate data and simple ML models. Features: data ingestion, dashboard mockups, alert simulation. Tech: Python (ML prototype), Flask (prototype), Frontend mockups.</p>
+          <p class="proj-links"><a href="https://github.com/your-username/disaster-predictor" target="_blank" rel="noopener">GitHub</a></p>
+        </article>
+        <article class="project-card">
+          <img src="assets/proj2.png" alt="Project 2 screenshot" />
+          <h3>College Noticeboard Website</h3>
+          <p>A responsive web app to manage and display college notices and events. Implemented user-friendly UI, searchable notices, and role-based content editing in a prototype. Tech: HTML, CSS, JavaScript.</p>
+          <p class="proj-links"><a href="https://github.com/your-username/noticeboard" target="_blank" rel="noopener">GitHub</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <p>If you'd like to get in touch — whether for collaboration, mentorship, or opportunities — feel free to reach out:</p>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:reachaadijain@gmail.com">reachaadijain@gmail.com</a></li>
+        <li>Phone: +91-9910921725</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/aadi-jain-8227b421b/" target="_blank" rel="noopener">Aadi Jain</a></li>
+      </ul>
+      <form class="contact-form" action="mailto:your.email@example.com" method="get" enctype="text/plain">
+        <label>
+          <span>Your message</span>
+          <textarea name="message" rows="4" placeholder="Write a short message..."></textarea>
+        </label>
+        <p><button type="submit" class="btn">Send Email</button></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Aadi Jain <a href="#home">Back to top</a></p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
